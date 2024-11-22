@@ -1,0 +1,28 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.secondcontainer {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .expense-form,
+  .wallet-balance,
+  .transaction-list {
+    width: 100%;
+  }
+}
